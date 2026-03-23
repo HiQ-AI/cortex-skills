@@ -100,6 +100,15 @@
       "author": "Anthropic",
       "tags": ["development", "web"],
       "path": "skills/web-artifacts-builder"
+    },
+    {
+      "id": "lca-format-validator",
+      "name": "LCA Format Validator",
+      "description": "解析、校验、转换 LCA 数据包（ILCD XML、JSON-LD、TIDAS）。需要 Python 环境，首次运行自动安装依赖",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "data", "ilcd"],
+      "path": "skills/lca-format-validator"
     }
   ]
 }
