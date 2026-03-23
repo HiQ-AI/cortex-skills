@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-23T13:00:00Z",
+  "updated_at": "2026-03-23T14:00:00Z",
   "skills": [
     {
       "id": "xlsx",
@@ -84,33 +84,6 @@
       "path": "skills/doc-coauthoring"
     },
     {
-      "id": "mcp-builder",
-      "name": "MCP Builder",
-      "description": "创建 MCP 服务器：连接外部 API、数据库、工具到 AI",
-      "version": "1.0.0",
-      "author": "Anthropic",
-      "tags": ["development", "mcp"],
-      "path": "skills/mcp-builder"
-    },
-    {
-      "id": "skill-creator",
-      "name": "Skill Creator",
-      "description": "创建、修改、测试 AI 技能：模板、评估、性能优化",
-      "version": "1.0.0",
-      "author": "Anthropic",
-      "tags": ["meta", "development"],
-      "path": "skills/skill-creator"
-    },
-    {
-      "id": "slack-gif-creator",
-      "name": "Slack GIF Creator",
-      "description": "创建适合 Slack 的动画 GIF：尺寸优化、帧率控制、循环动画",
-      "version": "1.0.0",
-      "author": "Anthropic",
-      "tags": ["creative", "communication"],
-      "path": "skills/slack-gif-creator"
-    },
-    {
       "id": "theme-factory",
       "name": "Theme Factory",
       "description": "为幻灯片、文档、报告、HTML 应用主题样式：配色、字体、布局",
@@ -127,15 +100,6 @@
       "author": "Anthropic",
       "tags": ["development", "web"],
       "path": "skills/web-artifacts-builder"
-    },
-    {
-      "id": "webapp-testing",
-      "name": "Web App Testing",
-      "description": "使用 Playwright 测试 Web 应用：截图验证、交互测试、自动化",
-      "version": "1.0.0",
-      "author": "Anthropic",
-      "tags": ["development", "testing"],
-      "path": "skills/webapp-testing"
     }
   ]
 }
