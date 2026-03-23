@@ -160,7 +160,8 @@
       "author": "HiQ",
       "tags": ["lca", "openlca", "calculation"],
       "path": "skills/openlca-bridge",
-      "auto_install": true
+      "auto_install": true,
+      "required": true
     }
   ]
 }
