@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-23T00:00:00Z",
+  "skills": [
+    {
+      "id": "xlsx",
+      "name": "Excel",
+      "description": "读写 Excel/CSV 表格、数据清洗、公式计算、图表生成",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["office", "spreadsheet"],
+      "path": "skills/xlsx"
+    },
+    {
+      "id": "pdf",
+      "name": "PDF",
+      "description": "PDF 读取、合并、拆分、OCR、加水印、表单填写、加密解密",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["office", "document"],
+      "path": "skills/pdf"
+    },
+    {
+      "id": "docx",
+      "name": "Word",
+      "description": "创建、编辑、读取 Word 文档，支持目录、页眉、批注、修订",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["office", "document"],
+      "path": "skills/docx"
+    },
+    {
+      "id": "pptx",
+      "name": "PowerPoint",
+      "description": "创建、编辑、读取 PPT 演示文稿，支持模板、布局、备注",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["office", "presentation"],
+      "path": "skills/pptx"
+    },
+    {
+      "id": "frontend-design",
+      "name": "Frontend Design",
+      "description": "生成高质量前端界面：网页、组件、看板、海报、Landing Page",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["design", "web"],
+      "path": "skills/frontend-design"
+    },
+    {
+      "id": "product-self-knowledge",
+      "name": "Product Knowledge",
+      "description": "查询 HiQ Cortex 产品能力、功能规格、使用方式",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["meta", "knowledge"],
+      "path": "skills/product-self-knowledge"
+    }
+  ]
+}
