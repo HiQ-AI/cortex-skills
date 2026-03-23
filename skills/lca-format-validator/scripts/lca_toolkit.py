@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-LCA Data Toolkit — Parse, validate, and convert ILCD/JSON-LD/TIDAS data packages.
+LCA Format Validator — Parse, validate, and convert ILCD/JSON-LD/TIDAS data packages.
 
 Supports: ILCD XML (.zip), openLCA JSON-LD (.zip), LCA JSON (directory).
 Dependencies: jsonschema (auto-installed if missing) for full schema validation.
@@ -1668,7 +1668,7 @@ def _jsonld_impactcategory_to_ilcd(data):
 # ── CLI ──
 
 def main():
-    parser = argparse.ArgumentParser(description="LCA Data Toolkit — Parse, validate, convert LCA data packages")
+    parser = argparse.ArgumentParser(description="LCA Format Validator — Parse, validate, convert LCA data packages")
     sub = parser.add_subparsers(dest="command")
 
     p_parse = sub.add_parser("parse", help="Parse and summarize a data package")

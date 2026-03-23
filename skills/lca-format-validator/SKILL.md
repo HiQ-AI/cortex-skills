@@ -3,7 +3,7 @@ name: lca-format-validator
 description: "Use this skill when the user wants to parse, validate, or convert LCA data packages. Triggers include: uploading an ILCD zip, openLCA JSON-LD zip, or TIDAS JSON package; asking to check if an LCA data file is valid; asking to see what datasets are inside a package; converting between ILCD XML and JSON formats; or any mention of 'ILCD', 'eILCD', 'JSON-LD', 'TIDAS', 'openLCA export', 'data package validation', 'format check', '数据包校验', '格式验证', 'ILCD解析'. Do NOT use for general LCA data search — use lca-search instead."
 ---
 
-# LCA Data Toolkit
+# LCA Format Validator
 
 Parse, validate, and convert LCA data packages. Supports ILCD XML, openLCA JSON-LD, and TIDAS JSON formats.
 
