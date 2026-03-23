@@ -119,7 +119,8 @@
       "version": "1.0.0",
       "author": "HiQ",
       "tags": ["lca", "bom", "analysis"],
-      "path": "skills/bom-analysis"
+      "path": "skills/bom-analysis",
+      "auto_install": true
     },
     {
       "id": "data-quality-assessment",
@@ -128,7 +129,8 @@
       "version": "1.0.0",
       "author": "HiQ",
       "tags": ["lca", "quality", "dqi"],
-      "path": "skills/data-quality-assessment"
+      "path": "skills/data-quality-assessment",
+      "auto_install": true
     },
     {
       "id": "cbam-compliance",
@@ -137,7 +139,8 @@
       "version": "1.0.0",
       "author": "HiQ",
       "tags": ["lca", "cbam", "compliance"],
-      "path": "skills/cbam-compliance"
+      "path": "skills/cbam-compliance",
+      "auto_install": true
     },
     {
       "id": "scope3-guidance",
@@ -146,7 +149,8 @@
       "version": "1.0.0",
       "author": "HiQ",
       "tags": ["lca", "scope3", "ghg"],
-      "path": "skills/scope3-guidance"
+      "path": "skills/scope3-guidance",
+      "auto_install": true
     }
   ]
 }
