@@ -111,6 +111,42 @@
       "path": "skills/lca-format-validator",
       "auto_install": true,
       "required": true
+    },
+    {
+      "id": "bom-analysis",
+      "name": "BOM Analysis",
+      "description": "分析 BOM 物料清单：去重、分类、缺失检测、单位统一、LCA 匹配准备度评估",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "bom", "analysis"],
+      "path": "skills/bom-analysis"
+    },
+    {
+      "id": "data-quality-assessment",
+      "name": "Data Quality Assessment",
+      "description": "LCA 数据质量评估：Pedigree Matrix / PEF DQR / ILCD DQI 评分，数据集代表性分析",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "quality", "dqi"],
+      "path": "skills/data-quality-assessment"
+    },
+    {
+      "id": "cbam-compliance",
+      "name": "CBAM Compliance",
+      "description": "EU CBAM 碳关税合规指南：产品范围识别、排放计算、数据需求、默认值、申报要求",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "cbam", "compliance"],
+      "path": "skills/cbam-compliance"
+    },
+    {
+      "id": "scope3-guidance",
+      "name": "Scope 3 Guidance",
+      "description": "GHG Protocol Scope 3 指南：15 类排放分类、边界判定、计算方法、数据收集模板",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "scope3", "ghg"],
+      "path": "skills/scope3-guidance"
     }
   ]
 }
