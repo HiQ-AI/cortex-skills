@@ -108,7 +108,9 @@
       "version": "1.0.0",
       "author": "HiQ",
       "tags": ["lca", "data", "ilcd"],
-      "path": "skills/lca-format-validator"
+      "path": "skills/lca-format-validator",
+      "auto_install": true,
+      "required": true
     }
   ]
 }
