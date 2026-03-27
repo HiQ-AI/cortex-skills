@@ -156,7 +156,7 @@
       "id": "openlca-bridge",
       "name": "openLCA Bridge",
       "description": "连接 openLCA 2.x：导入数据、建产品系统、运行 LCIA 计算、热点分析。需要本地 openLCA + IPC 服务器",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "HiQ",
       "tags": ["lca", "openlca", "calculation"],
       "path": "skills/openlca-bridge",
