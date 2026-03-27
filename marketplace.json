@@ -161,6 +161,16 @@
       "tags": ["lca", "openlca", "calculation"],
       "path": "skills/openlca-bridge",
       "auto_install": true
+    },
+    {
+      "id": "lca-consultant",
+      "name": "LCA Consultant",
+      "description": "LCA 搜索咨询策略：五维度判断（技术路线/地理/功能单位/时间/系统模型）、行业术语映射、产品拆解、政策法规约束",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": ["lca", "consultant", "guidance"],
+      "path": "skills/lca-consultant",
+      "auto_install": true
     }
   ]
 }
