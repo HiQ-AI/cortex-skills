@@ -868,6 +868,9 @@ def _convert_ilcd_to_jsonld(path):
         # Write olca-schema.json
         zf_out.writestr("olca-schema.json", json.dumps({"version": 2}))
 
+        # Collect ImpactCategory entries grouped by methodology name
+        methodology_groups = {}  # methodology_name -> list of {"@id": ..., "name": ...}
+
         for name in sorted(zf_in.namelist()):
             if not name.endswith(".xml"):
                 continue
@@ -905,12 +908,35 @@ def _convert_ilcd_to_jsonld(path):
                     jsonld_cat = "lcia_categories"
 
                 if jsonld_data and jsonld_cat:
+                    # Collect methodology grouping for ImpactMethod generation
+                    if jsonld_cat == "lcia_categories":
+                        meth_name = jsonld_data.pop("_methodology", None)
+                        if meth_name:
+                            methodology_groups.setdefault(meth_name, []).append({
+                                "@type": "ImpactCategory",
+                                "@id": jsonld_data.get("@id", ""),
+                                "name": jsonld_data.get("name", ""),
+                            })
+
                     uid = jsonld_data.get("@id", "unknown")
                     zf_out.writestr(f"{jsonld_cat}/{uid}.json",
                                     json.dumps(jsonld_data, indent=2, ensure_ascii=False))
                     counts[jsonld_cat] = counts.get(jsonld_cat, 0) + 1
             except Exception as e:
                 print(f"- ❌ {name}: {e}")
+
+        # Generate ImpactMethod objects grouped by methodology name
+        for meth_name, categories in methodology_groups.items():
+            method_id = str(uuid.uuid5(uuid.NAMESPACE_OID, meth_name))
+            method_data = {
+                "@type": "ImpactMethod",
+                "@id": method_id,
+                "name": meth_name,
+                "impactCategories": categories,
+            }
+            zf_out.writestr(f"lcia_methods/{method_id}.json",
+                            json.dumps(method_data, indent=2, ensure_ascii=False))
+            counts["lcia_methods"] = counts.get("lcia_methods", 0) + 1
 
     total = sum(counts.values())
     print(f"## Conversion Result\n")
@@ -1148,6 +1174,10 @@ def _ilcd_lcia_to_jsonld(root):
     desc = _find_any(root, "generalComment")
     if desc:
         result["description"] = desc
+
+    methodology = _find_any(root, "methodology")
+    if methodology:
+        result["_methodology"] = methodology
 
     ref_unit = _find_any(root, "referenceQuantity")
     if ref_unit:
