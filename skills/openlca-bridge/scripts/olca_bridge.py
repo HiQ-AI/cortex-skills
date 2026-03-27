@@ -188,8 +188,9 @@ def cmd_import_jsonld(args):
                 except Exception as e:
                     print(f"Warning: failed to import {entity_type.__name__} {getattr(entity, 'name', '?')}: {e}", file=sys.stderr)
 
-        # Also try sources, actors, impact categories
-        for entity_type in [o.Source, o.Actor, o.ImpactCategory]:
+        # Also try sources, actors, impact categories, impact methods
+        # ImpactMethod must come AFTER ImpactCategory (reference dependency)
+        for entity_type in [o.Source, o.Actor, o.ImpactCategory, o.ImpactMethod]:
             for entity in reader.read_each(entity_type):
                 try:
                     client.put(entity)
