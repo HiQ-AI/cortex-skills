@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-29T00:00:00Z",
+  "updated_at": "2026-03-29T01:00:00Z",
   "skills": [
     {
       "id": "xlsx",
@@ -12,7 +12,8 @@
         "office",
         "spreadsheet"
       ],
-      "path": "skills/xlsx"
+      "path": "skills/xlsx",
+      "auto_install": true
     },
     {
       "id": "pdf",
@@ -24,7 +25,8 @@
         "office",
         "document"
       ],
-      "path": "skills/pdf"
+      "path": "skills/pdf",
+      "auto_install": true
     },
     {
       "id": "docx",
@@ -36,7 +38,8 @@
         "office",
         "document"
       ],
-      "path": "skills/docx"
+      "path": "skills/docx",
+      "auto_install": true
     },
     {
       "id": "pptx",
@@ -48,7 +51,8 @@
         "office",
         "presentation"
       ],
-      "path": "skills/pptx"
+      "path": "skills/pptx",
+      "auto_install": true
     },
     {
       "id": "frontend-design",
@@ -60,7 +64,8 @@
         "design",
         "web"
       ],
-      "path": "skills/frontend-design"
+      "path": "skills/frontend-design",
+      "auto_install": true
     },
     {
       "id": "product-self-knowledge",
@@ -72,7 +77,8 @@
         "meta",
         "knowledge"
       ],
-      "path": "skills/product-self-knowledge"
+      "path": "skills/product-self-knowledge",
+      "auto_install": true
     },
     {
       "id": "theme-factory",
@@ -84,7 +90,8 @@
         "design",
         "theming"
       ],
-      "path": "skills/theme-factory"
+      "path": "skills/theme-factory",
+      "auto_install": true
     },
     {
       "id": "lca-format-validator",
