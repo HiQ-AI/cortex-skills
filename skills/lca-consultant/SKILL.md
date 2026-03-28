@@ -267,7 +267,7 @@ description: "Use this skill when the user's LCA data search query is ambiguous 
 
 ## 引导交互方式
 
-### 用 get_user_input 给按钮选项
+### 用 AskUserQuestion 给按钮选项
 
 规则：
 1. **先说差异，再给选项**。告诉用户为什么需要区分。
