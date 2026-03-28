@@ -5,7 +5,7 @@
     {
       "id": "lca-search",
       "name": "LCA Search",
-      "description": "LCA 数据库搜索执行：query 构建、同义词覆盖、结果评估、代理选择",
+      "description": "搜索 12 个 LCA 数据库，查找碳足迹、排放因子、环境影响数据集，返回 GWP 值和数据源",
       "version": "1.0.0",
       "author": "HiQ",
       "tags": [
@@ -20,7 +20,7 @@
     {
       "id": "feedback",
       "name": "Feedback",
-      "description": "提交 bug 报告和功能建议",
+      "description": "提交 bug 报告和功能建议到 GitHub Issues，帮助改进 Cortex",
       "version": "1.0.0",
       "author": "HiQ",
       "tags": [
@@ -124,7 +124,7 @@
     {
       "id": "lca-format-validator",
       "name": "LCA Format Validator",
-      "description": "解析、校验、转换 LCA 数据包（ILCD XML、JSON-LD、TIDAS）。需要 Python 环境，首次运行自动安装依赖",
+      "description": "解析和校验 LCA 数据包（ILCD XML、openLCA JSON-LD、TIDAS），格式转换和内容检查",
       "version": "1.0.2",
       "author": "HiQ",
       "tags": [
@@ -195,7 +195,7 @@
     {
       "id": "openlca-bridge",
       "name": "openLCA Bridge",
-      "description": "连接 openLCA 2.x：导入数据、建产品系统、运行 LCIA 计算、热点分析。需要本地 openLCA + IPC 服务器",
+      "description": "连接本地 openLCA 2.x，导入数据、建产品系统、运行 LCIA 计算（ReCiPe / CML / EF 3.0）",
       "version": "1.0.1",
       "author": "HiQ",
       "tags": [
@@ -209,7 +209,7 @@
     {
       "id": "lca-consultant",
       "name": "LCA Consultant",
-      "description": "LCA 搜索咨询引导：当材料存在多条工艺路线或地区差异时，引导用户澄清后再搜索",
+      "description": "搜索前的专业引导：帮你判断材料的工艺路线、地区、系统模型，给出按钮选项，确认后再搜索",
       "version": "1.1.0",
       "author": "HiQ",
       "tags": [
