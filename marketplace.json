@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "updated_at": "2026-03-29T01:00:00Z",
+  "updated_at": "2026-03-29T02:00:00Z",
   "skills": [
+    {
+      "id": "lca-search",
+      "name": "LCA Search",
+      "description": "LCA 数据库搜索执行：query 构建、同义词覆盖、结果评估、代理选择",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": [
+        "lca",
+        "search",
+        "core"
+      ],
+      "path": "skills/lca-search",
+      "auto_install": true,
+      "required": true
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback",
+      "description": "提交 bug 报告和功能建议",
+      "version": "1.0.0",
+      "author": "HiQ",
+      "tags": [
+        "meta",
+        "feedback"
+      ],
+      "path": "skills/feedback",
+      "auto_install": true
+    },
     {
       "id": "xlsx",
       "name": "Excel",
