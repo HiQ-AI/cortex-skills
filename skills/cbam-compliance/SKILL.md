@@ -1,6 +1,6 @@
 ---
 name: cbam-compliance
-description: "Use this skill when the user asks about EU CBAM (Carbon Border Adjustment Mechanism). Triggers include: any mention of 'CBAM', 'carbon border', '碳边境', '碳关税', 'EU carbon tax', 'CBAM reporting', 'CBAM default values', 'embedded emissions', or when user wants to know if their product falls under CBAM, what data they need for CBAM reporting, or how to calculate CBAM emissions. Also trigger for questions about EU carbon pricing affecting imports."
+description: "Provides EU CBAM (Carbon Border Adjustment Mechanism) compliance guidance — product scope, reporting requirements, default values, and embedded emissions calculation. Triggers on "CBAM", "carbon border", "碳边境", "碳关税", "EU carbon tax", "embedded emissions", or questions about CBAM reporting and calculations."
 ---
 
 # CBAM Compliance Guide

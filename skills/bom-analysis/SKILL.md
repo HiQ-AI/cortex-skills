@@ -1,6 +1,6 @@
 ---
 name: bom-analysis
-description: "Use this skill when the user uploads a Bill of Materials (BOM), material list, or product composition table and wants it analyzed. Triggers include: any mention of 'BOM', 'bill of materials', 'material list', '物料清单', '配方表', or when the user uploads an Excel/CSV containing material names, quantities, and units. Also trigger when user asks to 'check my BOM', 'clean up this material list', 'what materials am I missing', or wants to prepare a BOM for LCA data matching. Do NOT trigger for LCA data search — use lca-search instead."
+description: "Analyzes uploaded BOMs (Bill of Materials), material lists, and product composition tables — cleaning, validating, and preparing them for LCA data matching. Triggers on 'BOM', 'bill of materials', 'material list', '物料清单', '配方表', or uploaded Excel/CSV with material names and quantities. Does NOT search LCA data — use lca-search for that."
 ---
 
 # BOM Analysis

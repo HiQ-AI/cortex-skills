@@ -1,6 +1,6 @@
 ---
 name: data-quality-assessment
-description: "Use this skill when the user wants to assess or score the quality of LCA datasets. Triggers include: any mention of 'data quality', 'DQI', 'DQR', 'Pedigree', 'representativeness', 'data quality indicator', 'data quality rating', '数据质量', '代表性评估', 'PEF data quality'. Also trigger when user asks 'is this dataset good enough', 'how reliable is this data', or wants to compare quality between datasets. Do NOT use for data search — use lca-search instead."
+description: "Assesses and scores LCA dataset quality using Pedigree/DQI/DQR methods. Triggers on "data quality", "DQI", "DQR", "Pedigree", "representativeness", "数据质量", "代表性评估", or comparisons between dataset reliability. Does NOT search data — use lca-search for that."
 ---
 
 # Data Quality Assessment

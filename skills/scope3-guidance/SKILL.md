@@ -1,6 +1,6 @@
 ---
 name: scope3-guidance
-description: "Use this skill when the user asks about Scope 3 emissions, GHG Protocol categorization, carbon footprint scope classification, or supply chain emissions. Triggers include: any mention of 'Scope 3', 'Scope 1 2 3', 'GHG Protocol', 'supply chain emissions', 'upstream emissions', 'downstream emissions', 'value chain', '范围三', '供应链碳排放', '上下游排放', '温室气体核算', 'corporate carbon footprint', 'product carbon footprint'. Also trigger when user asks how to classify their emission sources, what counts as Scope 3, or how to collect Scope 3 data."
+description: "Guides Scope 3 emissions categorization and data collection per GHG Protocol. Triggers on "Scope 3", "Scope 1 2 3", "GHG Protocol", "supply chain emissions", "范围三", "供应链碳排放", "温室气体核算", "corporate carbon footprint", or questions about emission scope classification."
 ---
 
 # Scope 3 Guidance

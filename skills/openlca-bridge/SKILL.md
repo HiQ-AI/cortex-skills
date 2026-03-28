@@ -1,6 +1,6 @@
 ---
 name: openlca-bridge
-description: "Use this skill when the user wants to connect to openLCA, run LCA calculations, build product systems, or import data into openLCA. Triggers include: any mention of 'openLCA', 'calculate carbon footprint', 'run LCIA', 'build product system', 'impact assessment', 'ReCiPe', 'CML', 'EF 3.0', '导入openLCA', '跑计算', '影响评价', or when the user has matched background data and wants to proceed with actual LCA calculation. Do NOT trigger for data search — use lca-search instead. Do NOT trigger for format validation — use lca-format-validator instead."
+description: "Connects to openLCA for LCA calculations, product system building, and LCIA (ReCiPe, CML, EF 3.0). Triggers on "openLCA", "run LCIA", "build product system", "impact assessment", "导入openLCA", "跑计算", "影响评价". Does NOT search data — use lca-search for that."
 ---
 
 # openLCA Bridge
