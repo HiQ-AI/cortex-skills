@@ -1,6 +1,6 @@
 ---
 name: lca-consultant
-description: "Use this skill when the user's LCA data search query is ambiguous or when they need help understanding materials/products before searching. Triggers on: broad material categories ('steel', 'plastic', 'aluminum'), product names instead of material names ('drain pipe', 'laptop'), questions about material composition or production routes, or when a user seems unsure what to search. Do NOT trigger for specific material queries (e.g. '304 stainless steel cold rolled') — those go directly to search."
+description: "Use this skill when the user wants to search LCA data but their query is vague or ambiguous — they haven't specified a concrete material, process, or product. Triggers include: broad category names ('steel', 'plastic', 'aluminum', '钢', '塑料', '铝'), product names instead of material names ('drain pipe', 'laptop', '排水管', '笔记本'), general requests like 'help me find data', '帮我找数据', '查碳足迹', '找数据集', or when the user seems unsure what to search. After loading, use AskUserQuestion to present clickable options that help the user clarify their intent (material type, production route, region, etc.) before searching. Do NOT trigger for specific material queries (e.g. '304 stainless steel cold rolled', 'HDPE granulate') — those go directly to lca-search."
 ---
 
 # LCA 搜索咨询策略
