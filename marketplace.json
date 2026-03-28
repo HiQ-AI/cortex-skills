@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-28T16:00:00Z",
+  "updated_at": "2026-03-28T18:00:00Z",
   "skills": [
     {
       "id": "xlsx",
@@ -8,7 +8,10 @@
       "description": "读写 Excel/CSV 表格、数据清洗、公式计算、图表生成",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["office", "spreadsheet"],
+      "tags": [
+        "office",
+        "spreadsheet"
+      ],
       "path": "skills/xlsx"
     },
     {
@@ -17,7 +20,10 @@
       "description": "PDF 读取、合并、拆分、OCR、加水印、表单填写、加密解密",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["office", "document"],
+      "tags": [
+        "office",
+        "document"
+      ],
       "path": "skills/pdf"
     },
     {
@@ -26,7 +32,10 @@
       "description": "创建、编辑、读取 Word 文档，支持目录、页眉、批注、修订",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["office", "document"],
+      "tags": [
+        "office",
+        "document"
+      ],
       "path": "skills/docx"
     },
     {
@@ -35,7 +44,10 @@
       "description": "创建、编辑、读取 PPT 演示文稿，支持模板、布局、备注",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["office", "presentation"],
+      "tags": [
+        "office",
+        "presentation"
+      ],
       "path": "skills/pptx"
     },
     {
@@ -44,7 +56,10 @@
       "description": "生成高质量前端界面：网页、组件、看板、海报、Landing Page",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["design", "web"],
+      "tags": [
+        "design",
+        "web"
+      ],
       "path": "skills/frontend-design"
     },
     {
@@ -53,7 +68,10 @@
       "description": "查询 HiQ Cortex 产品能力、功能规格、使用方式",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["meta", "knowledge"],
+      "tags": [
+        "meta",
+        "knowledge"
+      ],
       "path": "skills/product-self-knowledge"
     },
     {
@@ -62,7 +80,10 @@
       "description": "为幻灯片、文档、报告、HTML 应用主题样式：配色、字体、布局",
       "version": "1.0.0",
       "author": "Anthropic",
-      "tags": ["design", "theming"],
+      "tags": [
+        "design",
+        "theming"
+      ],
       "path": "skills/theme-factory"
     },
     {
@@ -71,7 +92,11 @@
       "description": "解析、校验、转换 LCA 数据包（ILCD XML、JSON-LD、TIDAS）。需要 Python 环境，首次运行自动安装依赖",
       "version": "1.0.2",
       "author": "HiQ",
-      "tags": ["lca", "data", "ilcd"],
+      "tags": [
+        "lca",
+        "data",
+        "ilcd"
+      ],
       "path": "skills/lca-format-validator",
       "auto_install": true,
       "required": true
@@ -82,7 +107,11 @@
       "description": "分析 BOM 物料清单：去重、分类、缺失检测、单位统一、LCA 匹配准备度评估",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["lca", "bom", "analysis"],
+      "tags": [
+        "lca",
+        "bom",
+        "analysis"
+      ],
       "path": "skills/bom-analysis",
       "auto_install": true
     },
@@ -92,7 +121,11 @@
       "description": "LCA 数据质量评估：Pedigree Matrix / PEF DQR / ILCD DQI 评分，数据集代表性分析",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["lca", "quality", "dqi"],
+      "tags": [
+        "lca",
+        "quality",
+        "dqi"
+      ],
       "path": "skills/data-quality-assessment",
       "auto_install": true
     },
@@ -102,7 +135,11 @@
       "description": "EU CBAM 碳关税合规指南：产品范围识别、排放计算、数据需求、默认值、申报要求",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["lca", "cbam", "compliance"],
+      "tags": [
+        "lca",
+        "cbam",
+        "compliance"
+      ],
       "path": "skills/cbam-compliance",
       "auto_install": true
     },
@@ -112,7 +149,11 @@
       "description": "GHG Protocol Scope 3 指南：15 类排放分类、边界判定、计算方法、数据收集模板",
       "version": "1.0.0",
       "author": "HiQ",
-      "tags": ["lca", "scope3", "ghg"],
+      "tags": [
+        "lca",
+        "scope3",
+        "ghg"
+      ],
       "path": "skills/scope3-guidance",
       "auto_install": true
     },
@@ -122,17 +163,25 @@
       "description": "连接 openLCA 2.x：导入数据、建产品系统、运行 LCIA 计算、热点分析。需要本地 openLCA + IPC 服务器",
       "version": "1.0.1",
       "author": "HiQ",
-      "tags": ["lca", "openlca", "calculation"],
+      "tags": [
+        "lca",
+        "openlca",
+        "calculation"
+      ],
       "path": "skills/openlca-bridge",
       "auto_install": true
     },
     {
       "id": "lca-consultant",
       "name": "LCA Consultant",
-      "description": "LCA 搜索咨询策略：五维度判断（技术路线/地理/功能单位/时间/系统模型）、行业术语映射、产品拆解、政策法规约束",
-      "version": "1.0.0",
+      "description": "LCA 搜索咨询引导：当材料存在多条工艺路线或地区差异时，引导用户澄清后再搜索",
+      "version": "1.1.0",
       "author": "HiQ",
-      "tags": ["lca", "consultant", "guidance"],
+      "tags": [
+        "lca",
+        "consultant",
+        "guidance"
+      ],
       "path": "skills/lca-consultant",
       "auto_install": true
     }
