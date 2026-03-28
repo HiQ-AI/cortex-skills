@@ -1,6 +1,6 @@
 ---
 name: lca-consultant
-description: "Guides users through ambiguous LCA data search queries by clarifying material type, production route, and region using AskUserQuestion before searching. Triggers on broad categories ('steel', 'plastic', 'aluminum', '钢', '塑料', '铝'), product names ('drain pipe', '排水管'), vague requests ('帮我找数据', '查碳足迹', '找数据集', 'help me find data'), or when the user seems unsure what to search. Does NOT trigger for specific material queries like '304 stainless steel' or 'HDPE' — those go directly to lca-search."
+description: "Guides users through ambiguous LCA data search queries by clarifying material type, production route, and region using AskUserQuestion before searching. Triggers on broad or ambiguous materials ('steel', 'crude steel', 'plastic', 'aluminum', '钢', '粗钢', '塑料', '铝', '铝合金'), product names ('drain pipe', '排水管'), vague requests ('帮我找数据', '查碳足迹', '找数据集', 'help me find data'), or when the user seems unsure what to search. Does NOT trigger for specific material queries like '304 stainless steel' or 'HDPE' — those go directly to lca-search."
 ---
 
 # LCA 搜索咨询策略
