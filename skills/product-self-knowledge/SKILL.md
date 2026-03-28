@@ -1,6 +1,6 @@
 ---
 name: product-self-knowledge
-description: "Stop and consult this skill whenever your response would include specific facts about HiQ's products. Covers: HiQ Cortex Desktop (features, modes, capabilities, skills system, data sources), HiQLCD database (coverage, standards, sectors), HiQ platform (hiqlcd.com, hiq.earth). Trigger this when users ask about Cortex capabilities, supported databases, data coverage, pricing, company info, or make comparisons with other LCA tools. Any time you would otherwise rely on memory for HiQ product details, verify here instead."
+description: "Provides verified facts about HiQ products — Cortex Desktop features, HiQLCD database coverage, HiQ platform capabilities. Triggers when responding about Cortex capabilities, supported databases, data coverage, pricing, company info, "产品功能", "数据库介绍", or comparisons with other LCA tools. Does NOT trigger for general LCA methodology or competitor product details."
 ---
 
 # HiQ Product Knowledge
