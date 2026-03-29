@@ -1,6 +1,6 @@
 ---
 name: bom-analysis
-description: "Analyzes uploaded BOMs (Bill of Materials), material lists, and product composition tables — cleaning, validating, and preparing them for LCA data matching. Triggers on 'BOM', 'bill of materials', 'material list', '物料清单', '配方表', or uploaded Excel/CSV with material names and quantities. Does NOT search LCA data — use lca-search for that."
+description: 'Analyzes uploaded BOMs (Bill of Materials), material lists, and product composition tables — cleaning, validating, and preparing them for LCA data matching. Triggers on ''BOM'', ''bill of materials'', ''material list'', ''物料清单'', ''配方表'', or uploaded Excel/CSV with material names and quantities. Does NOT search LCA data — use lca-search for that.'
 ---
 
 # BOM Analysis

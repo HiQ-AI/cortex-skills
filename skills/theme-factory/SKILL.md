@@ -1,6 +1,6 @@
 ---
 name: theme-factory
-description: "Applies consistent color and font themes to presentations, documents, reports, and HTML artifacts. 10 pre-set themes available, or generates custom themes. Triggers on "theme", "color scheme", "styling", "主题", "配色", "风格". Does NOT trigger for content creation — only styling existing artifacts."
+description: 'Applies consistent color and font themes to presentations, documents, reports, and HTML artifacts. 10 pre-set themes available, or generates custom themes. Triggers on "theme", "color scheme", "styling", "主题", "配色", "风格". Does NOT trigger for content creation — only styling existing artifacts.'
 license: Complete terms in LICENSE.txt
 ---
 

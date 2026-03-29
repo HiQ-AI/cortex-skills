@@ -1,6 +1,6 @@
 ---
 name: product-self-knowledge
-description: "Provides verified facts about HiQ products — Cortex Desktop features, HiQLCD database coverage, HiQ platform capabilities. Triggers when responding about Cortex capabilities, supported databases, data coverage, pricing, company info, "产品功能", "数据库介绍", or comparisons with other LCA tools. Does NOT trigger for general LCA methodology or competitor product details."
+description: 'Provides verified facts about HiQ products — Cortex Desktop features, HiQLCD database coverage, HiQ platform capabilities. Triggers when responding about Cortex capabilities, supported databases, data coverage, pricing, company info, "产品功能", "数据库介绍", or comparisons with other LCA tools. Does NOT trigger for general LCA methodology or competitor product details.'
 ---
 
 # HiQ Product Knowledge

@@ -1,6 +1,6 @@
 ---
 name: feedback
-description: "Use this skill when the user wants to report a bug, request a feature, give feedback, or when you detect that a scenario is unsupported. Triggers: 'bug', 'issue', 'problem', 'broken', 'not working', 'feature request', 'suggestion', '报bug', '提issue', '反馈', '问题', '不好用', '功能建议', or when you realize the current task cannot be completed due to a limitation."
+description: 'Use this skill when the user wants to report a bug, request a feature, give feedback, or when you detect that a scenario is unsupported. Triggers: ''bug'', ''issue'', ''problem'', ''broken'', ''not working'', ''feature request'', ''suggestion'', ''报bug'', ''提issue'', ''反馈'', ''问题'', ''不好用'', ''功能建议'', or when you realize the current task cannot be completed due to a limitation.'
 ---
 
 # Feedback — 提交 Issue 到 GitHub

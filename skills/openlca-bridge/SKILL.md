@@ -1,6 +1,6 @@
 ---
 name: openlca-bridge
-description: "Connects to openLCA for LCA calculations, product system building, and LCIA (ReCiPe, CML, EF 3.0). Triggers on "openLCA", "run LCIA", "build product system", "impact assessment", "导入openLCA", "跑计算", "影响评价". Does NOT search data — use lca-search for that."
+description: 'Connects to openLCA for LCA calculations, product system building, and LCIA (ReCiPe, CML, EF 3.0). Triggers on "openLCA", "run LCIA", "build product system", "impact assessment", "导入openLCA", "跑计算", "影响评价". Does NOT search data — use lca-search for that.'
 ---
 
 # openLCA Bridge

@@ -1,6 +1,6 @@
 ---
 name: xlsx
-description: "Handles spreadsheet operations — reading, editing, creating .xlsx/.xlsm/.csv/.tsv files, computing formulas, charting, and cleaning messy tabular data. Triggers on ".xlsx", "Excel", "spreadsheet", "表格", "电子表格", "数据清洗", or when the deliverable is a spreadsheet file. Does NOT trigger when the deliverable is a Word document, HTML report, or database pipeline."
+description: 'Handles spreadsheet operations — reading, editing, creating .xlsx/.xlsm/.csv/.tsv files, computing formulas, charting, and cleaning messy tabular data. Triggers on ".xlsx", "Excel", "spreadsheet", "表格", "电子表格", "数据清洗", or when the deliverable is a spreadsheet file. Does NOT trigger when the deliverable is a Word document, HTML report, or database pipeline.'
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

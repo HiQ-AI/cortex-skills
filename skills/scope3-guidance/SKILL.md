@@ -1,6 +1,6 @@
 ---
 name: scope3-guidance
-description: "Guides Scope 3 emissions categorization and data collection per GHG Protocol. Triggers on "Scope 3", "Scope 1 2 3", "GHG Protocol", "supply chain emissions", "范围三", "供应链碳排放", "温室气体核算", "corporate carbon footprint", or questions about emission scope classification."
+description: 'Guides Scope 3 emissions categorization and data collection per GHG Protocol. Triggers on "Scope 3", "Scope 1 2 3", "GHG Protocol", "supply chain emissions", "范围三", "供应链碳排放", "温室气体核算", "corporate carbon footprint", or questions about emission scope classification.'
 ---
 
 # Scope 3 Guidance

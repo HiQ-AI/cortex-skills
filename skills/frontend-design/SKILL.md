@@ -1,6 +1,6 @@
 ---
 name: frontend-design
-description: "Generates distinctive, production-grade frontend interfaces with high design quality. Triggers when building web components, pages, dashboards, React components, HTML/CSS layouts, landing pages, "前端", "网页设计", "页面", "组件", "海报". Does NOT trigger for backend APIs, mobile native apps, or CLI tools."
+description: 'Generates distinctive, production-grade frontend interfaces with high design quality. Triggers when building web components, pages, dashboards, React components, HTML/CSS layouts, landing pages, "前端", "网页设计", "页面", "组件", "海报". Does NOT trigger for backend APIs, mobile native apps, or CLI tools.'
 license: Complete terms in LICENSE.txt
 ---
 

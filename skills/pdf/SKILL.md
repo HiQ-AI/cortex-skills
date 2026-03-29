@@ -1,6 +1,6 @@
 ---
 name: pdf
-description: "Processes PDF files — reading, extracting text/tables, merging, splitting, rotating, watermarking, creating, filling forms, encrypting, OCR. Triggers on ".pdf", "PDF", "PDF文件", "合并PDF", "提取文字", or any mention of a .pdf file. Does NOT trigger for Word documents, spreadsheets, or image editing."
+description: 'Processes PDF files — reading, extracting text/tables, merging, splitting, rotating, watermarking, creating, filling forms, encrypting, OCR. Triggers on ".pdf", "PDF", "PDF文件", "合并PDF", "提取文字", or any mention of a .pdf file. Does NOT trigger for Word documents, spreadsheets, or image editing.'
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

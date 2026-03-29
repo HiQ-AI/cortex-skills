@@ -1,6 +1,6 @@
 ---
 name: docx
-description: "Creates, reads, edits, and manipulates Word documents (.docx files) — tables of contents, headings, page numbers, tracked changes, comments, find-and-replace. Triggers on ".docx", "Word document", "Word文档", "合同", "报告", "备忘录", or requests to produce formatted text documents. Does NOT trigger for PDFs, spreadsheets, or Google Docs."
+description: 'Creates, reads, edits, and manipulates Word documents (.docx files) — tables of contents, headings, page numbers, tracked changes, comments, find-and-replace. Triggers on ".docx", "Word document", "Word文档", "合同", "报告", "备忘录", or requests to produce formatted text documents. Does NOT trigger for PDFs, spreadsheets, or Google Docs.'
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: cbam-compliance
-description: "Provides EU CBAM (Carbon Border Adjustment Mechanism) compliance guidance — product scope, reporting requirements, default values, and embedded emissions calculation. Triggers on "CBAM", "carbon border", "碳边境", "碳关税", "EU carbon tax", "embedded emissions", or questions about CBAM reporting and calculations."
+description: 'Provides EU CBAM (Carbon Border Adjustment Mechanism) compliance guidance — product scope, reporting requirements, default values, and embedded emissions calculation. Triggers on "CBAM", "carbon border", "碳边境", "碳关税", "EU carbon tax", "embedded emissions", or questions about CBAM reporting and calculations.'
 ---
 
 # CBAM Compliance Guide

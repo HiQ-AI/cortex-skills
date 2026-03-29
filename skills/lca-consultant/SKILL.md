@@ -1,6 +1,6 @@
 ---
 name: lca-consultant
-description: "Guides users through ambiguous LCA data search queries by clarifying material type, production route, and region using AskUserQuestion before searching. Triggers when a material or product has multiple possible production routes, compositions, or regional variants that significantly affect carbon footprint — the user needs help narrowing down what to search. Does NOT trigger when the user already specified a concrete material with grade, process, or standard (e.g. 304 stainless steel cold rolled, HDPE injection molding) — those go directly to lca-search."
+description: 'Guides users through ambiguous LCA data search queries by clarifying material type, production route, and region using AskUserQuestion before searching. Triggers when a material or product has multiple possible production routes, compositions, or regional variants that significantly affect carbon footprint — the user needs help narrowing down what to search. Does NOT trigger when the user already specified a concrete material with grade, process, or standard (e.g. 304 stainless steel cold rolled, HDPE injection molding) — those go directly to lca-search.'
 ---
 
 # LCA 搜索咨询策略

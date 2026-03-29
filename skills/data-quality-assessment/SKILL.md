@@ -1,6 +1,6 @@
 ---
 name: data-quality-assessment
-description: "Assesses and scores LCA dataset quality using Pedigree/DQI/DQR methods. Triggers on "data quality", "DQI", "DQR", "Pedigree", "representativeness", "数据质量", "代表性评估", or comparisons between dataset reliability. Does NOT search data — use lca-search for that."
+description: 'Assesses and scores LCA dataset quality using Pedigree/DQI/DQR methods. Triggers on "data quality", "DQI", "DQR", "Pedigree", "representativeness", "数据质量", "代表性评估", or comparisons between dataset reliability. Does NOT search data — use lca-search for that.'
 ---
 
 # Data Quality Assessment

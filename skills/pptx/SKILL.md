@@ -1,6 +1,6 @@
 ---
 name: pptx
-description: "Handles all PowerPoint (.pptx) operations — creating, reading, editing, combining slide decks, working with templates, layouts, and speaker notes. Triggers on ".pptx", "slides", "deck", "presentation", "PPT", "幻灯片", "演示文稿", "汇报材料". Does NOT trigger for Keynote, Google Slides, or PDF-only tasks."
+description: 'Handles all PowerPoint (.pptx) operations — creating, reading, editing, combining slide decks, working with templates, layouts, and speaker notes. Triggers on ".pptx", "slides", "deck", "presentation", "PPT", "幻灯片", "演示文稿", "汇报材料". Does NOT trigger for Keynote, Google Slides, or PDF-only tasks.'
 license: Proprietary. LICENSE.txt has complete terms
 ---
 

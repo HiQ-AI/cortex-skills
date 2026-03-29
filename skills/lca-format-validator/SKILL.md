@@ -1,6 +1,6 @@
 ---
 name: lca-format-validator
-description: "Parses, validates, and converts LCA data packages (ILCD, openLCA JSON-LD, TIDAS). Triggers on uploaded ILCD/JSON-LD/TIDAS files, "format check", "数据包校验", "格式验证", "ILCD解析", or requests to inspect package contents. Does NOT search LCA data — use lca-search for that."
+description: 'Parses, validates, and converts LCA data packages (ILCD, openLCA JSON-LD, TIDAS). Triggers on uploaded ILCD/JSON-LD/TIDAS files, "format check", "数据包校验", "格式验证", "ILCD解析", or requests to inspect package contents. Does NOT search LCA data — use lca-search for that.'
 ---
 
 # LCA Format Validator

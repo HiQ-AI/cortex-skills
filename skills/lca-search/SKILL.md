@@ -1,6 +1,6 @@
 ---
 name: lca-search
-description: "Searches 12 LCA databases for carbon footprint data, emission factors, and environmental impact datasets. Triggers on specific material names ('304 stainless steel', 'HDPE', 'PA66-GF30', '热轧钢', '聚丙烯'), LCA terms ('carbon footprint', 'emission factor', 'GWP', '碳足迹', '排放因子', '碳排放'), or requests to find environmental data for materials or processes. Does NOT trigger for general web search or non-LCA tasks."
+description: 'Searches 12 LCA databases for carbon footprint data, emission factors, and environmental impact datasets. Triggers on specific material names (''304 stainless steel'', ''HDPE'', ''PA66-GF30'', ''热轧钢'', ''聚丙烯''), LCA terms (''carbon footprint'', ''emission factor'', ''GWP'', ''碳足迹'', ''排放因子'', ''碳排放''), or requests to find environmental data for materials or processes. Does NOT trigger for general web search or non-LCA tasks.'
 ---
 
 # LCA 数据库搜索
